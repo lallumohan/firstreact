@@ -28,7 +28,7 @@ export default class Tester extends Component {
         return (
             <div>
 
-               <span>Andaman deceased-{this.state.StateData[2].sno} </span>
+               <span>Andaman deceased now-{this.state.StateData[2].sno} </span>
                {a}
                {parseInt (this.state.StateData[1].active)- parseInt (this.state.StateData[1].new_active)}
                {parseInt (this.state.StateData[36].new_positive)- parseInt (this.state.StateData[36].positive)}
