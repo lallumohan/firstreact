@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+.table-responsive {
+    height: 500px;
+    overflow: scroll;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  thead tr:nth-child(1) th {
+    background: rgb(52, 224, 30);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  tr:hover {
+    background-color: I#ffa;
+  }
+  
+  
+  
+  
+  
+  .table tr td:hover {
+    background-color: rgb(117, 223, 122);
+    color: rgb(20, 66, 107);
+    border: 0.5px solid Orgb(12, 12, 12);
+  }
+  
+  .table tr td:hover:nth-child(4) {
+    background-color: rgb(231, 83, 115);
+    color: aliceblue;
+    border: 0.5px solid Orgb(12, 12, 12);
+  }
+  
+  .container-fluid {
+    width: 90%;
+  
+    margin: auto;
+  }

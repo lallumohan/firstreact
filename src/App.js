@@ -3,6 +3,9 @@ import React, { Component } from 'react'
 import Test from './test'
 //import Moh from './teste'
 import Tester from './Tester'
+import Vaccine from './vaccine'
+import Sate from './date'
+import Keralat from './Keralat' 
 
 export default class App extends Component {
     constructor(){
@@ -12,9 +15,14 @@ export default class App extends Component {
         return (
             <div>
                 welcome
-    
-                <Test/>
+                
+               <Keralat/>
+                {/*<Sate/>
                 <Tester/>
+                <Test/>
+                <Vaccine/>*/}
+            
+
 
             </div>
         )
